@@ -1,6 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @media only screen and (max-width: 375px) {
+
+
+
+    body{
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) ) ;
+    font-family: 'Kumbh Sans';
+
+}
     
     #img{
         display: flex;
@@ -13,5 +21,29 @@
     #img2{
         margin-top: 0;
         z-index: -1;
+    }
+
+    #main-container{
+        border: solid black;
+        background-color: white;
+        border-radius: 25px;
+        width: 97%;
+        
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        background-color: inherit;
+        width: 100%;
+        border: solid white 1px;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .panel{
+        text-align: center;
+        font-weight: 200;
+    
     }
 }
