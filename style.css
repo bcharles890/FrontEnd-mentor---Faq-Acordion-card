@@ -3,47 +3,64 @@
 @media only screen and (max-width: 375px) {
 
 
-
     body{
-    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%) ) ;
-    font-family: 'Kumbh Sans';
-
-}
-    
-    #img{
-        display: flex;
-        justify-content: center;
-        z-index: 1;
-        margin-top: 15px;
-        
+        font-family: 'Kumbh Sans';
     }
 
-    #img2{
-        margin-top: 0;
-        z-index: -1;
-    }
-
-    #main-container{
-        border: solid black;
-        background-color: white;
-        border-radius: 25px;
-        width: 97%;
-        
-    }
-
-    button{
-        display: flex;
-        justify-content: center;
-        background-color: inherit;
-        width: 100%;
-        border: solid white 1px;
-        font-weight: 400;
-        font-size: 15px;
-    }
-
-    .panel{
+    h1{
         text-align: center;
-        font-weight: 200;
-    
+        margin-top: 120px;
+        font-size: 30px;
     }
+
+    .accordionbody{
+        
+    }
+    
+    .accordion{
+
+        border: solid;
+        width : 300px;
+        margin: 10px auto;
+        height: 510px;
+        border-radius: 25px;
+        margin-top: 130px;
+        font-size: 12px;
+
+    }
+
+    .accordion .container{
+        position: relative;
+        margin: 15px 20px;
+
+    }
+
+    .label{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    hr{
+        width: 260px;
+        opacity: .3;
+    }
+
+    #container1{
+        margin-top: 30px;
+        
+    }
+
+    #image{
+
+        border: solid ;
+        z-index: 2;
+    }
+
+    #image-bg{
+        margin: 10px auto;
+        border: solid;
+        z-index: 1;
+    }
+
+    
 }
