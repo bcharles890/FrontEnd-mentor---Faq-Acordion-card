@@ -5,11 +5,12 @@
 
     body{
         font-family: 'Kumbh Sans';
+        height: 110vh;
     }
 
     h1{
         text-align: center;
-        margin-top: 120px;
+        margin-top: 100px;
         font-size: 30px;
     }
 
@@ -22,7 +23,7 @@
         border: solid;
         width : 300px;
         margin: 10px auto;
-        height: 510px;
+        height: 610px;
         border-radius: 25px;
         margin-top: 130px;
         font-size: 12px;
@@ -31,7 +32,7 @@
 
     .accordion .container{
         position: relative;
-        margin: 15px 20px;
+        margin: 19px 20px;
 
     }
 
@@ -39,6 +40,10 @@
         font-size: 13px;
         font-weight: 500;
         cursor: pointer;
+    }
+
+    .label:focus{
+        font-weight: 800;
     }
 
     hr{
